@@ -9,12 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class SignUpComponent implements OnInit {
 
   use={
-    Name:'',
+    FName:'',
+    LName:'',
     Email:'',
+    Phone:'',
+    Dateof:'',
     Password:'',
     Con_Password:'',
-    Contact:'',
-    State:'',
+    
     
   }
 
