@@ -1,0 +1,23 @@
+.sidebar{
+    width: 20%;
+    background-color: black;
+    color: snow;
+    height: 100%;
+}
+.mat-divider{
+   background-color: white 
+}
+.mat-sidenav-content{
+    width: 100%;
+    background-color: black;
+    color: snow;
+
+}
+.catalog{
+    margin-left: -16px;
+    text-align: left;
+}
+.anchor a{
+    text-decoration: none;
+    color: snow;
+}

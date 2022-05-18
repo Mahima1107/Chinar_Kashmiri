@@ -1,0 +1,191 @@
+.mat-toolbar{
+    background-color: rgb(185, 34, 34);
+    height: 25px;
+    margin-right: 5px;
+    
+}
+.mat-toolbar h3{
+    padding: 10px;
+}
+.nav{
+    margin-left: 640px;
+    color: snow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+.mat-toolbar-row{
+    background-color: white;
+    height: 39px;
+    border-bottom-style: outset;
+    margin-top: 11px;
+    
+}
+.nav1{
+    margin-left: 100px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 10px;
+}
+.mat-typography h3 {
+    padding: 10px;
+}
+.nav2{
+    margin-left: 180px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 1S0px;
+}
+
+.mat-icon{
+    width: 3px;
+    padding: 12px 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: snow;
+    font-size: 15px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+/* -----------------------end header------------------ */
+
+.payment h2{
+    color: rgb(221, 35, 35);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  .payment1{
+      margin-left: 30px;
+  }
+
+.btn23 button{
+    margin-left: 50px;
+    color: snow;
+    border-radius: 50px 50px 50px 50px;
+    border-color: darkgray;
+    background-color: firebrick;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-top-style: outset;
+}
+
+
+
+/* ------------------------footer-------------------- */
+.container123 .mat-toolbar{
+    background-color: rgb(221, 35, 35);
+    height: 10px;
+}
+
+.row12 .mat-toolbar-row{
+    background-color: black;
+    height: 250px;
+    margin-top: 0px;
+    border-bottom-style: none;
+}
+
+.row12 h2{
+    color: snow;
+    margin-left: 430px;
+}
+
+.icons{
+   color: darkblue; 
+   margin-bottom: 90px;
+   margin-left: -164px;
+}
+.icons a{
+    color: darkblue;
+}
+
+.icons1{
+    color: rgb(43, 158, 224); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons1 a{
+    color: rgb(43, 158, 224); 
+}
+
+.icons2{
+    color: rgb(224, 33, 90); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons2 a{
+    color: rgb(224, 33, 90); 
+}
+
+.icons3{
+    color: rgb(230, 27, 27); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons3 a{
+    color: rgb(230, 27, 27); 
+}
+
+
+.menu-footer{
+    margin-left: -300px;
+    margin-top: 60px;
+}
+
+.menu-footer ul {
+    list-style: none;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-footer li {
+    border-color: #d3d3d3;
+}
+.menu-footer li {
+    border-right: 1px solid #e30026;
+    display: inline;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    color:#a2a5a6
+}
+
+.menu-footer li:last-child {
+    border-right: none;
+}
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.87);  
+    height: 45px;
+  }
+  .foot h3{
+      color: snow;
+      margin-left: 35px;
+  }
+  .img1{
+    margin-left: -360px;
+    margin-top: 170px; 
+  } 

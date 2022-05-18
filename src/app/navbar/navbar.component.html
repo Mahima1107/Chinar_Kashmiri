@@ -1,0 +1,54 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="sidebar">
+<h4>Food Ordering System</h4>
+<mat-divider></mat-divider><br><br>
+<p>Mahima</p><br>
+
+<mat-divider></mat-divider><br>
+<div class="anchor">
+  <mat-sidenav-container>
+    
+    <mat-sidenav-content><mat-icon>dashboard</mat-icon>
+      <a button href="/dashboard">Dashboard</a></mat-sidenav-content>
+    
+    <mat-sidenav-content><mat-icon>shopping_cart</mat-icon>
+      <a button href="#">Orders</a></mat-sidenav-content>
+
+    <!-- <mat-sidenav-content><mat-icon>receipt</mat-icon>Catalog
+    <mat-list role="list">
+        <mat-list-item role="listitem">Restaurants Manager</mat-list-item>
+        <mat-list-item role="listitem">Restaurants</mat-list-item>
+        <mat-list-item role="listitem">Restaurants Categories</mat-list-item>
+        <mat-list-item role="listitem">Menu Manager</mat-list-item>
+
+      </mat-list></mat-sidenav-content> -->
+      
+      <mat-sidenav-content>
+<div class="catalog"> 
+      <button mat-button [matMenuTriggerFor]="menu"><mat-icon>receipt</mat-icon>Catalog</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Restaurants Manager</button>
+  <button mat-menu-item>Restaurants </button>
+  <button mat-menu-item>Restaurants Categories</button>
+  <button mat-menu-item>Menu Manager </button>
+</mat-menu></div></mat-sidenav-content>
+
+
+    <mat-sidenav-content><mat-icon>assignment_ind</mat-icon>
+      <a button href="#">Customers Manager</a></mat-sidenav-content>
+
+    <mat-sidenav-content><mat-icon>note_add</mat-icon>
+      <a button href="#">Pages</a></mat-sidenav-content>
+
+    <mat-sidenav-content><mat-icon>settings</mat-icon>
+      <a button href="#">Settings</a></mat-sidenav-content>
+
+    <mat-sidenav-content><mat-icon>logout</mat-icon>
+      <a button href="#">Logout</a></mat-sidenav-content>
+  </mat-sidenav-container>
+
+  
+
+</div></div>
+

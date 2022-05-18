@@ -1,0 +1,95 @@
+.mat-toolbar{
+    background-color: rgb(221, 35, 35);
+    height: 10px;
+}
+
+.mat-toolbar-row{
+    background-color: black;
+    height: 250px;
+}
+
+h2{
+    color: snow;
+    margin-left: 430px;
+}
+
+.icons{
+   color: darkblue; 
+   margin-bottom: 90px;
+   margin-left: -164px;
+}
+.icons a{
+    color: darkblue;
+}
+
+.icons1{
+    color: rgb(43, 158, 224); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons1 a{
+    color: rgb(43, 158, 224); 
+}
+
+.icons2{
+    color: rgb(224, 33, 90); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons2 a{
+    color: rgb(224, 33, 90); 
+}
+
+.icons3{
+    color: rgb(230, 27, 27); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons3 a{
+    color: rgb(230, 27, 27); 
+}
+
+
+.menu-footer{
+    margin-left: -300px;
+    margin-top: 60px;
+}
+
+.menu-footer ul {
+    list-style: none;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-footer li {
+    border-color: #d3d3d3;
+}
+.menu-footer li {
+    border-right: 1px solid #e30026;
+    display: inline;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    color:#a2a5a6
+}
+
+.menu-footer li:last-child {
+    border-right: none;
+}
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.87);  
+    height: 45px;
+
+  }
+  h3{
+      color: snow;
+      margin-left: 35px;
+  }
+  .img1{
+    margin-left: -360px;
+    margin-top: 170px; 
+  }

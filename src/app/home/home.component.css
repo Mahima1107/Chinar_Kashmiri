@@ -1,0 +1,348 @@
+.mat-toolbar{
+    background-color: rgb(185, 34, 34);
+    height: 25px;
+    margin-right: 5px;
+    
+}
+.mat-toolbar h3{
+    padding: 10px;
+}
+.nav{
+    margin-left: 640px;
+    color: snow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+.mat-toolbar-row{
+    background-color: white;
+    height: 39px;
+    border-bottom-style: outset;
+    margin-top: 11px;
+    
+}
+.nav1{
+    margin-left: 100px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 1S0px;
+}
+.mat-typography h3 {
+    padding: 10px;
+}
+.nav2{
+    margin-left: 180px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 1S0px;
+}
+
+.mat-icon{
+    width: 3px;
+    padding: 12px 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: snow;
+    font-size: 15px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.banner img{
+    left: 0; right: 0;
+	width: 100%; height: 83.5vh;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.banner h1{
+    color: snow;
+    text-align: center;
+    margin-top: -300px;
+    font-size: 35px;
+}
+.banner h4{
+    color: snow;
+    text-align: center;
+}
+.banner button{
+    margin-left: 450px;
+    color: rgb(58, 54, 54);
+    border-radius: 50px 50px 50px 50px;
+    border-color: darkgray;
+
+}
+.rest h4{
+    text-align: center;
+    color: grey;
+    margin-top: 180px;
+}
+.rest h2{
+    text-align: center;
+    color: rgb(214, 39, 39);
+    margin-top: -20px;
+}
+/* .content h4{
+     color: black;
+     text-align: center;
+     margin-left: -400px; 
+}
+.content h5{
+    color: black;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -294px;
+} */
+.container {
+    position: relative;
+    margin: 50px 0px;
+}
+.container .box {
+    position: relative;
+    width: 24.5%;
+    height: 180px;
+    margin: 0;
+    display: inline-grid;
+    padding: 2px 2px;
+}
+.container .box .imgbox{
+	position: relative;
+	overflow: hidden;
+}
+.container .box .imgbox img{
+	width: 97%;
+	height: 84%;
+    margin-left: 7px;
+	transition: transform 2s;
+}
+/* .container .box:hover .imgbox img{
+	transform: scale(1.2);
+
+} */
+.container .box .details{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,0.3);
+	/* transform: scaleX(0);
+	transition: transform 0.5s; */
+	text-align:center;
+	text-transform: uppercase;
+    color:#ffffff
+
+}
+/* .container .box:hover .details{
+	transform: scaleX(1);
+} */
+.container .box .details .content {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+div a{
+	text-decoration: none;
+	color:#ffffff;
+}
+ 
+.container .box .details1{
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 150px;
+	right: 10px;
+	background: rgba(34, 34, 34, 0.3);
+	text-align: center;
+	/* text-transform: uppercase; */
+    color:#625e5e;
+    margin-top: 120px;
+}
+.container .box .details1 .content1{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	text-align:center;
+	padding: 30px;
+	box-sizing: border-box;
+    font-weight: 700;
+}
+.container .box .details1 .content1 h3{
+    font-weight: 700;
+}
+.container .box .details1 .content1 p{
+    margin-top: -26px;
+    font-weight: 500;
+    font-size: 10px;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.container .box .details1 .content1 button{
+    color: snow;
+    border-radius: 50px 50px 50px 50px;
+    border-color: darkgray;
+    background-color: firebrick;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-top-style: outset;
+}
+
+.rest1 h2{
+    text-align: center;
+    color: rgb(214, 39, 39);
+    margin-top: 130px;
+}
+.imgbox1{
+    width: 51%;
+    height: 72%;
+    margin-left: 80px;
+    transition: transform 2s;
+}
+
+.container .box .details2{
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 150px;
+	right: 10px;
+	background: rgba(34, 34, 34, 0.3);
+	text-align: center;
+	/* text-transform: uppercase; */
+    color:#625e5e;
+    margin-top: 50px;
+}
+.details2 .content2{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	text-align:center;
+	padding: 30px;
+	box-sizing: border-box;
+    font-weight: 700;
+}
+.container .box .details2 .content2 h3{
+    font-weight: 700;
+    margin-top: -2px;
+    color:#625e5e;
+}
+.container .box .details2 .content2 p{
+    margin-top: -26px;
+    font-weight: 500;
+    font-size: 10px;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+.container123 .mat-toolbar{
+    background-color: rgb(221, 35, 35);
+    height: 10px;
+}
+
+.row12 .mat-toolbar-row{
+    background-color: black;
+    height: 250px;
+    margin-top: 0px;
+    border-bottom-style: none;
+}
+
+.row12 h2{
+    color: snow;
+    margin-left: 430px;
+}
+
+.icons{
+   color: darkblue; 
+   margin-bottom: 90px;
+   margin-left: -164px;
+}
+.icons a{
+    color: darkblue;
+}
+
+.icons1{
+    color: rgb(43, 158, 224); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons1 a{
+    color: rgb(43, 158, 224); 
+}
+
+.icons2{
+    color: rgb(224, 33, 90); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons2 a{
+    color: rgb(224, 33, 90); 
+}
+
+.icons3{
+    color: rgb(230, 27, 27); 
+    margin-bottom: 90px;
+    margin-left: 10px;
+}
+.icons3 a{
+    color: rgb(230, 27, 27); 
+}
+
+
+.menu-footer{
+    margin-left: -300px;
+    margin-top: 60px;
+}
+
+.menu-footer ul {
+    list-style: none;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-footer li {
+    border-color: #d3d3d3;
+}
+.menu-footer li {
+    border-right: 1px solid #e30026;
+    display: inline;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    color:#a2a5a6
+}
+
+.menu-footer li:last-child {
+    border-right: none;
+}
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.87);  
+    height: 45px;
+  }
+  .foot h3{
+      color: snow;
+      margin-left: 35px;
+  }
+  .img1{
+    margin-left: -360px;
+    margin-top: 170px; 
+  } 

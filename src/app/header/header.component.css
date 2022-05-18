@@ -1,0 +1,56 @@
+.mat-toolbar{
+    background-color: rgb(185, 34, 34);
+    height: 25px;
+    margin-right: 5px;
+    
+}
+.mat-toolbar h3{
+    padding: 10px;
+}
+.nav{
+    margin-left: 640px;
+    color: snow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.mat-toolbar-row{
+    background-color: white;
+    height: 39px;
+    border-bottom-style: outset;
+    margin-top: 11px;
+}
+.nav1{
+    margin-left: 100px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 1S0px;
+}
+.mat-typography h3 {
+    padding: 10px;
+}
+.nav2{
+    margin-left: 180px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    /* color: firebrick; */
+    padding: 1S0px;
+}
+
+.mat-icon{
+    width: 3px;
+    padding: 12px 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: snow;
+    font-size: 15px;
+}

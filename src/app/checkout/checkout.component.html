@@ -1,0 +1,129 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="mat-typography">
+<mat-toolbar>
+    <h3 style="color: snow;">Order on: +91 9416787159</h3>
+    <div class="nav">
+    <h3><a button href="/sign-up">Sign Up</a></h3>
+        <h3><a button href="/login">Log In</a> </h3>
+    </div>
+
+  </mat-toolbar>
+  
+  <mat-toolbar-row>
+      <h2 style="color: black;">Chinar Kashmiri</h2>
+      <div class="nav1">
+        <h3><a button href="/home">Home</a></h3>
+        <h3><a button href="/restaurant">Restaurants</a></h3>
+        <h3><a button href="/drinksmenu">Drinks and Bevarages</a></h3>
+        </div>
+        <div class="nav2">
+            <mat-icon>account_box</mat-icon>  <h3>My Account</h3>
+            <mat-icon>shopping_cart</mat-icon>  <h3>View Cart</h3>
+        </div>
+  </mat-toolbar-row>
+
+  
+<div class="rest">
+    <h2><b>CHECKOUT</b></h2>
+</div>
+
+<div class="inp">
+    <h4>Billing Address</h4>
+</div>
+
+<div class="inp1">
+    <input type="text" placeholder="FirstName" size="80px" [(ngModel)]="use.FirstName"/><br><br>
+    <input type="text" placeholder="LastName" size="80px" [(ngModel)]="use.LastName"/><br><br>
+    <input type="text" placeholder="Email" size="80px" [(ngModel)]="use.Email"/><br><br>
+    <input type="text" placeholder="Address" size="80px" [(ngModel)]="use.Address"/><br><br>
+    <input type="text" placeholder="City" size="80px" [(ngModel)]="use.City"/><br><br>
+    <input type="text" placeholder="Country" size="80px" [(ngModel)]="use.Country"/><br><br>
+    <input type="text" placeholder="Zip Code" size="80px" [(ngModel)]="use.Zipcode"/><br><br>
+    <input type="text" placeholder="Telephone" size="80px" [(ngModel)]="use.Telephone"/><br><br>
+
+    <button mat-raised-button (click)="onclick()">Submit</button> <br><br>
+</div>
+
+<div class="btn12">
+    <button mat-raised-button color="accent"><mat-icon> home</mat-icon><h3>Continue Shopping</h3></button>
+    <button mat-raised-button color="accent"><mat-icon>shopping_cart</mat-icon><h3>Shopping Cart</h3></button>
+</div>
+<br>
+<div class="container567">
+<div class="con_order">
+    <h2>Your Order</h2>
+    <mat-divider></mat-divider>
+
+    <label id="example-radio-group-label" style="margin-left: 700px;"><b>Choose Your Own Online Payment Options:</b></label>
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+  [(ngModel)]="modepay">
+  <mat-radio-button class="example-radio-button" *ngFor="let pay of pays" [value]="pay">
+    {{pay}}
+  </mat-radio-button>
+</mat-radio-group>
+<div class="payment1"><b>Your payment option is: {{modepay}}</b></div>
+</div></div>
+
+<div class="btn23">
+    <button mat-raised-button>Place Order</button> 
+    </div><br><br><br>
+<br><br><br><br><br>
+<!-- <br><br><br> -->
+
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+
+<div class="mat-typography1">
+    <div class="continer123">
+    <mat-toolbar>
+        </mat-toolbar></div>
+
+<div class="row12">
+        <mat-toolbar-row>
+            <h2>Chinar Kashmiri Wazwan</h2>
+            <div class="icons">
+                <a button href="https://www.facebook.com/" target="_blank">
+                <i class='fab fa-facebook-f fa-border fa-1x'></i></a>
+            </div>
+            
+            <div class="icons1">
+                <a button href="https://www.twitter.com/" target="_blank">
+            <i class='fab fa-twitter fa-border fa-1x'></i></a>
+        </div>
+         
+        <div class="icons2">
+            <a button href="https://www.instagram.com/" target="_blank">
+            <i class='fab fa-instagram fa-border fa-1x'></i></a>
+        </div>
+
+        <div class="icons3">
+            <a button href="https://mail.google.com/" target="_blank">
+             <i class='fas fa-envelope fa-border fa-1x'></i></a>
+        </div>
+
+            <div class="col-md-12 col-sm-12 menu-footer footer-center">
+                <ul class="menu">
+                  <li class="menu-item"><span>Mahima</span></li>
+                  <li class="menu-item"><span>Mobile: +91 9416787159</span></li>
+                  <li class="menu-item"><span>mahima2022000@gmail.com</span></li>
+                </ul>
+                </div>
+    
+                <div class="img1">
+                    <!-- <img src="{{imageSrc}}"/> --> -->
+                    <img [src]="imageSrc" *ngIf="imageSrc" style="height: 50px; width: 150px">
+
+                </div>
+
+            
+        </mat-toolbar-row></div>
+    
+    <div class="foot">
+    <h3>Copyright@2022- All rights reserved.</h3>
+</div>
+</div>
+    </div> 
+
