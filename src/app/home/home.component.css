@@ -37,9 +37,15 @@
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     /* color: firebrick; */
-    padding: 1S0px;
+    padding: 10px;
 }
-
+.nav2 a{
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 12px;
+}
 .mat-icon{
     width: 3px;
     padding: 12px 20px;
