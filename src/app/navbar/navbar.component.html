@@ -14,24 +14,15 @@
     
     <mat-sidenav-content><mat-icon>shopping_cart</mat-icon>
       <a button href="#">Orders</a></mat-sidenav-content>
-
-    <!-- <mat-sidenav-content><mat-icon>receipt</mat-icon>Catalog
-    <mat-list role="list">
-        <mat-list-item role="listitem">Restaurants Manager</mat-list-item>
-        <mat-list-item role="listitem">Restaurants</mat-list-item>
-        <mat-list-item role="listitem">Restaurants Categories</mat-list-item>
-        <mat-list-item role="listitem">Menu Manager</mat-list-item>
-
-      </mat-list></mat-sidenav-content> -->
       
       <mat-sidenav-content>
 <div class="catalog"> 
       <button mat-button [matMenuTriggerFor]="menu"><mat-icon>receipt</mat-icon>Catalog</button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>Restaurants Manager</button>
-  <button mat-menu-item>Restaurants </button>
-  <button mat-menu-item>Restaurants Categories</button>
-  <button mat-menu-item>Menu Manager </button>
+  <a button mat-menu-item href="/restaurant">Restaurants</a>
+  <a button mat-menu-item href="/mainmenu">Main Menu</a>
+  <a button mat-menu-item href="/menu">Menu</a>
+  <a button mat-menu-item href="/drinksmenu">Drinks & Beverages </a>
 </mat-menu></div></mat-sidenav-content>
 
 
@@ -39,13 +30,23 @@
       <a button href="#">Customers Manager</a></mat-sidenav-content>
 
     <mat-sidenav-content><mat-icon>note_add</mat-icon>
-      <a button href="#">Pages</a></mat-sidenav-content>
+      <a button href="/home">Pages</a></mat-sidenav-content>
 
-    <mat-sidenav-content><mat-icon>settings</mat-icon>
+  <mat-sidenav-content><div class="catalog"> 
+        <button mat-button [matMenuTriggerFor]="menu1"><mat-icon>settings</mat-icon>Settings</button>
+  <mat-menu #menu1="matMenu">
+    <a button mat-menu-item href="/login">Login</a>
+    <a button mat-menu-item href="/sign-up">Sign Up</a>
+    <a button mat-menu-item href="/forgotpassword">Forgot Password</a>
+    <a button mat-menu-item href="/resetpassword">Reset Password </a>
+    <a button mat-menu-item href="/logout">Log Out</a>
+  </mat-menu></div></mat-sidenav-content>
+
+    <!-- <mat-sidenav-content><mat-icon>settings</mat-icon>
       <a button href="#">Settings</a></mat-sidenav-content>
 
     <mat-sidenav-content><mat-icon>logout</mat-icon>
-      <a button href="#">Logout</a></mat-sidenav-content>
+      <a button href="#">Logout</a></mat-sidenav-content> -->
   </mat-sidenav-container>
 
   
